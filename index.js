@@ -151,7 +151,7 @@ function annoyingSong(startingBottles){
         )
     }
 }
-console.log(annoyingSong(10))
+console.log(annoyingSong(11))
 
 /************************************************************** Task 7 **************************************************************/
 //Grade Calculator
@@ -176,7 +176,7 @@ function gradeCalculator(grade){
     }
 }
 
-console.log(gradeCalculator(45))
+console.log(gradeCalculator(85))
   
   
 
@@ -187,13 +187,28 @@ console.log(gradeCalculator(45))
 
 
 
+function countVowels(uString) {
+    vowelCounter = 0;
+    let newStr = uString.toString().toLowerCase();
+    for(let i =0; i < newStr.length; i++) {
+        if(newStr[i] === 'a' || 'e' || 'i' || 'o' || 'u'){
+            vowelCounter += 1;
+        }
+    }
+    return vowelCounter;
+}
+
+console.log(countVowels('tom bauer'))
+
+
+
 
 
 /************************************************************** Stretch **************************************************************/
 //Take Rock, Paper, Sissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
 
-
+// my existing version already does this
 
 
 
